@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Control de Gastos",
+    "slug": "control-gastos",
+    "version": "1.0.0",
+    "scheme": "control-gastos",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.controlgastos.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "category": ["DEFAULT", "BROWSABLE"],
+          "data": [
+            {
+              "scheme": "com.controlgastos.app"
+            }
+          ]
+        }
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-web-browser",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "firebaseApiKey": "AIzaSyBd3Ijxuqr8osfKmXU5Qa6Coeoc0JtXfYo",
+      "firebaseAuthDomain": "control-gastos-app-74bf0.firebaseapp.com",
+      "firebaseProjectId": "control-gastos-app-74bf0",
+      "firebaseStorageBucket": "control-gastos-app-74bf0.firebasestorage.app",
+      "firebaseMessagingSenderId": "939540310790",
+      "firebaseAppId": "1:939540310790:web:a3864e172284f665348c87",
+      "googleWebClientId": "939540310790-81pu0lan99eldq8aoih14ovttcjkl2tq.apps.googleusercontent.com",
+      "googleAndroidClientId": "939540310790-or0gkrb6p5art9ccq1rgg7r43a5icmct.apps.googleusercontent.com",
+      "googleIosClientId": ""
+    }
+  }
+}
